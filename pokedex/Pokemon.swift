@@ -13,6 +13,7 @@ class Pokemon {
     private var _name: String!
     private var _pokedexId: Int!
     
+    //getters
     var name: String {
         if _name == nil {
             _name = ""
@@ -27,6 +28,7 @@ class Pokemon {
         return _pokedexId
     }
     
+    //initializer or setter
     init(name: String, pokedexId: Int) {
         self._name = name
         self._pokedexId = pokedexId
