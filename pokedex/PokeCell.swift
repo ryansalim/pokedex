@@ -23,7 +23,7 @@ class PokeCell: UICollectionViewCell {
     }
     
     //updating the PokeCell's label and thumbnail img
-    func configureCell(pokemon: Pokemon) {
+    func configureCell(_ pokemon: Pokemon) {
         
         self.pokemon = pokemon
         
