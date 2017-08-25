@@ -10,6 +10,7 @@ import UIKit
 
 class PokemonDetailVC: UIViewController {
     
+    
     @IBOutlet weak var nameLbl: UILabel!
     var pokemon: Pokemon!
 
